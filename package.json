@@ -1,0 +1,32 @@
+{
+  "name": "gamesuite_connect",
+  "version": "1.0.10",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@mysten/enoki": "^0.4.25",
+    "@mysten/sui": "^1.21.2",
+    "@mysten/wallet-standard": "^0.13.26"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "dependencies": {
+
+  }
+}
